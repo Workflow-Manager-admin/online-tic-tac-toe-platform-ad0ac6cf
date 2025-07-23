@@ -10,6 +10,9 @@
   --button-text: #ffffff;
 }
 
+/* Import custom component styles */
+@import url('./components/components.css');
+
 [data-theme="dark"] {
   /* Dark theme colors */
   --bg-primary: #1a1a1a;
